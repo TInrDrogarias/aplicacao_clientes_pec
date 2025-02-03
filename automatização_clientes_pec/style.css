@@ -1,0 +1,38 @@
+#background {
+	background-image: url('background.png');
+	background-size: cover;
+}
+
+#app_name {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 64px;
+}
+
+.position_box {
+	width: 30%;
+	height: 100%;
+}
+
+.input_text {
+	font-family: Roboto;
+	color: rgb(255,230,143);
+	font-size: 32px;
+}
+
+.input_box {
+	font-family: Roboto;
+	font-color: black;
+	border-radius: 5px;
+	position: absolute;
+	left: 10%
+	top: 50%;
+}
+
+.submit_button {
+	font-family: Roboto;
+	font-color: rgba(0, 128, 255, 0);
+	background-color: rgb(255,230,143);
+	border-radius: 5px;
+}
