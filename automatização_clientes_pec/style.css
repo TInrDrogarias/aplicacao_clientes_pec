@@ -3,36 +3,91 @@
 	background-size: cover;
 }
 
-#app_name {
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 64px;
-}
-
 .position_box {
 	width: 30%;
 	height: 100%;
 }
 
-.input_text {
-	font-family: Roboto;
-	color: rgb(255,230,143);
-	font-size: 32px;
-}
+#input_text1 {
+	/*Cores e estilo*/
+	color: yellow;
+	font-size: 26px;
+	font-weight: bolder;
 
-.input_box {
-	font-family: Roboto;
-	font-color: black;
-	border-radius: 5px;
+	/*posicionamento*/
 	position: absolute;
-	left: 10%
-	top: 50%;
+	left: 13%;
+	top: 42%;
 }
 
-.submit_button {
-	font-family: Roboto;
-	font-color: rgba(0, 128, 255, 0);
-	background-color: rgb(255,230,143);
+#input_text2 {
+	/*Cores e estilo*/
+	color: yellow;
+	font-size: 26px;
+	font-weight: bolder;
+
+	/*posicionamento*/
+	position: absolute;
+	left: 13%;
+	top: 52%;
+}
+
+#input_box1 {
+	/*posição*/
+	position: absolute;
+	top: 50%;
+	left: 13%;
+	height: 30px;
+	width: 200px;
+
+	/*estilo*/
 	border-radius: 5px;
+	background-color: #d7d7f4ff;
+
+}
+
+
+#input_box2 {
+	/*cor e estilização*/
+	border-radius: 5px;
+	background-color: #d7d7f4ff;
+	height: 30px;
+	width: 200px;
+
+	/*posição*/
+	position: absolute;
+	top: 60%;
+	left: 13%;
+	height: 30px;
+	width: 200px;
+}
+
+#button1 {
+	/*posição*/
+	position: absolute;
+	top: 65%;
+	left: 16%;
+
+	/*cor e estilização*/
+	border-radius: 5px;
+	background-color: #ffe680ff;
+	font-weight: bolder;
+	height: 40px;
+	width: 120px;
+	font-size: 16px;
+
+}
+
+#titulo1 {
+	/*Cor e estilo*/
+	font-family: arial;
+	font-size: 70px;
+	color: white;
+
+	/*Posição*/
+	position: absolute;
+	top: 20%;
+	left: 8%;
+
+
 }

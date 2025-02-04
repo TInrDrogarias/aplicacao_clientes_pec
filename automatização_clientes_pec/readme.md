@@ -5,12 +5,13 @@
 
 ***
 ## Tarefas:
-- [] Criar o layout das páginas:
-	- [] Página de Login.
-	- [] Página de inserção de dados.
-	- [] Página de envio.
+- [x] Criar o layout das páginas:
+	- [x] Página de Login.
+	- [x] Página de inserção de dados.
+	- [x] Página de envio.
 - [] Desenvolver as páginas HTML e CSS;
 	- [] Separar todos os componentes. 
+	- [] Criar página por página.
 - [] Ir terminando de aprender o necessário enquanto isso.
 	- [] HTML
 	- [] CSS
