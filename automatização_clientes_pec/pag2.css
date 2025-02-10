@@ -1,0 +1,122 @@
+#box1 {
+
+	float: left;
+	width: 40%;
+	height: 100%;
+	margin: 0px;
+
+}
+
+#box2 {
+	float: right;
+	width: 58%;
+	height: 100%;
+	padding: none;
+
+}
+
+#box3 {
+
+	width: 49%;
+	height: 48%;
+	float: left;
+	padding: none;
+
+}
+
+#box4 {
+	width: 49%;
+	height: 48%;
+	float: right;
+	padding: none;
+
+}
+
+#box5 {
+	width: 49%;
+	height: 50%;
+	float: left;
+
+	padding: none;
+	position: relative;
+}
+
+
+#box6 {
+	width: 49%;
+	height: 50%;
+	float: right;
+
+	padding: none;
+	position: relative;
+
+}
+
+#form1 {
+	display: auto;
+	position: relative;
+	top: 25%;
+}
+
+.button {
+	height: 80px;
+	width: 245px;
+	display: block;
+	margin: 40px;
+	position: relative;
+	left: 15%;
+	top: 30%;
+
+	border-radius: 5px;
+	border-style: solid;
+	font-size: 46px;
+	font-weight: bold;
+	color: #0044AA;
+	background-color: #ffe680ff;
+}
+
+
+#button1 {
+	width: 50%;
+	height: 10%;
+	display: block;
+	position: relative;
+
+	background-color: #ffe680ff;
+	border-style: solid;
+	border-radius: 5px;
+
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+#form2 {
+
+	width: 25%;
+	height: 25%;
+	position: relative;
+	display: inline;
+	left: 25%;
+	top: 25%;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	left: 25%;
+	top: 20%;
+}
+
+#textarea {
+	width: 400px;
+	height: 200px;
+	position: relative;
+	right: 15%;
+	bottom: 10%;
+	FONT-SIZE: 16PX;
+
+
+	border-radius: 5px;
+	padding: none;
+}
