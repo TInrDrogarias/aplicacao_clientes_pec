@@ -24,10 +24,8 @@
 		-[x] manter identidade visual da empresa.
 	- [] Aprender o necessário.
 		-[] básico de JavaScript.
-		-[] api do What's app.
-		-[] mexer com bancos de dados em javascript.
+		-[] selenium api.
 	- [] implementar as funcionalidades dos programas.
-		-[] importar listas de telefones.
 
 ## Log:
 29/01/2025:
@@ -40,6 +38,11 @@
 2. Troquei as cores dos ícones, como a Nathiele pediu.
 3. Comecei a planejar as funcionalidades do programa.
 4. Parei em pesquisar a API do What's APP.
+
+11/02/2025:
+1. Descobri como receber os contatos usando o JavaScript. (lendo arquivos .csv).
+2. Comecei a montar o algoritmo de envio de mensagens no whats app.
+3. Descobri uma solução para a integração com o zap. (tirar um print do qr code).
 
 ## Atribuição de créditos: 
 https://www.flaticon.com/free-icon/medicine_10880471?term=medicine&page=1&position=49&origin=search&related_id=10880471, Freepik.
