@@ -30,7 +30,6 @@ def importar_imagem():
 	imagem = filedialog.askopenfilename(title="Escolha um arquivo", filetypes=[("Todos os Arquivos", "*.*")])
 	imagem = os.path.abspath(imagem)
 	messagebox.showinfo("Aviso!", "A imagem foi importada pelo programa!")
-	print(imagem)
 	return imagem
 
 def importar_contatos():
@@ -105,7 +104,8 @@ def processo():
 		time.sleep(2)
 		driver.find_element(By.XPATH, '//*[@id="app"]/div/div[3]/div/div[2]/div[2]/span/div/div/div/div[2]/div/div[2]/div[2]/div/div').click(); # escreve a mensagem de texto
 		time.sleep(2)
-		driver.find_element(By.XPATH, '//*[@id="side"]/div[1]/div/div[2]/span/button/span').click() # clica no botão de esquecer as coisas
+		input_upload = driver.find_element(By.XPATH, "/html/body/div[3]/div/div/span[5]/div/ul/div/div/div[2]/li/div/input")
+		input_upload.send_keys()
 		x += 1;
 
 # criando os botões e os posicionando

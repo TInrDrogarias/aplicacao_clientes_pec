@@ -88,9 +88,4 @@ iniciar_processo =  tk.Button(root, text="iniciar processo", command=processo)
 iniciar_processo.place(x=40, y=120)
 
 
-
-
-
-
-
 root.mainloop()
